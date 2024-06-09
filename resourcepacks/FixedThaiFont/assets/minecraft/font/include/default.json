@@ -3,7 +3,6 @@
     {
       "type": "ttf",
       "file": "font.ttf",
-      "shift": [-1, 0],
       "size": 15,
       "oversample": 10.0
     }
