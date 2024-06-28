@@ -4,7 +4,7 @@ Content rich RPG themed modpack, Featuring balance, tons of custom content, ques
 
 ## Prerequisite
 
-- Minecraft 1.20.1 with Forge 47.2.30+
+- Minecraft 1.20.1 with Forge 47.3.0+
 
 ## System Requirements
 
