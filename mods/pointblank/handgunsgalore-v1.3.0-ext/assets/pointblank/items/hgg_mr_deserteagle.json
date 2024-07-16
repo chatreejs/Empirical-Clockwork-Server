@@ -1,0 +1,84 @@
+{
+  "name" : "hgg_mr_deserteagle",
+  "type": "Gun",
+  "maxAmmoCapacity" : 7,
+  "compatibleAmmo" : ["ammocreative","ammo50actionexpress"],
+  "damage" : 12.0,
+  "rpm" : 450,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "hgg_deserteagle",
+  "drawCooldownDuration" : 600,
+  "aimingZoom" : 0.15,
+  "gunRecoilInitialAmplitude" : 1.3,
+  "shakeRecoilAmplitude" : 1.75,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 25.5,
+  "inspectCooldownDuration": 3700,
+  "muzzleFlashScale": 1.5,
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2500,
+      "animation": "animation.model.reloadempty",
+      "shakeEffects": [
+        {
+          "start": 240,
+          "duration": 300,
+          "initialAmplitude": 0.05,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 830,
+          "duration": 350,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.05
+        },
+        {
+          "start": 1140,
+          "duration": 400,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 1570,
+          "duration": 200,
+          "initialAmplitude": 0.4,
+          "rateOfAmplitudeDecay": 0.2
+        },
+        {
+          "start": 2200,
+          "duration": 200,
+          "initialAmplitude": 0.5,
+          "rateOfAmplitudeDecay": 0.3
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1650,
+      "animation": "animation.model.reload",
+      "shakeEffects": [
+        {
+          "start": 500,
+          "duration": 400,
+          "initialAmplitude": 0.05,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 870,
+          "duration": 400,
+          "initialAmplitude": 0.07,
+          "rateOfAmplitudeDecay": 0.05
+        },
+        {
+          "start": 1,
+          "duration": 300,
+          "initialAmplitude": 0.09,
+          "rateOfAmplitudeDecay": 0.065
+        }
+      ]
+    }
+  ]
+}

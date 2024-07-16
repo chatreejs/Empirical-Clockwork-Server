@@ -1,0 +1,97 @@
+{
+"loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": 
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    256,
+    256
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -8.25,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.44,
+        0.44
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -8.25,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.44,
+        0.44
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        -6,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.44,
+        0.44
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -4.75,
+        -18,
+        1
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -10,
+        0
+      ],
+      "scale": [
+        0.46,
+        0.46,
+        0.46
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        -18,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -18,
+        0
+      ]
+    }
+  }
+},
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/cg_m249_rails.icon"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cg_m249_mag30",
+  "type": "Attachment",
+  "category": "underbarrel",
+  "features": [
+    {
+      "type": "AmmoCapacity",
+      "ammoCapacity": 30
+    },
+	{
+      "type": "Recoil",
+      "recoilModifier": 0.9
+    },
+	{
+      "type": "Accuracy",
+      "accuracyModifier": 1.05
+    }
+  ]
+}

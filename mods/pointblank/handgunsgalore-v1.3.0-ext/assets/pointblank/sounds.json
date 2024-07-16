@@ -1,0 +1,98 @@
+{
+    "hgg_p30": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_p30",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_usp": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_usp",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_uspsilenced": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_uspsilenced",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_fiveseven": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_fiveseven",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_hpda": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_hpda",
+                "stream": false
+            }
+        ]
+    },
+    "pistol_hit2": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_hit2",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_rg15": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_rg15",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_makarov": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_makarov",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_berettapx4storm": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_berettapx4storm",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_fnp40": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_fnp40",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_tauruspt145": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_tauruspt145",
+                "stream": false
+            }
+        ]
+    },
+    "hgg_deserteagle": {
+        "sounds": [
+            {
+                "name": "pointblank:hgg_deserteagle",
+                "stream": false
+            }
+        ]
+    }
+}

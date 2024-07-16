@@ -1,0 +1,119 @@
+{
+  "name" : "mk14mod0",
+  "type": "Gun",
+  "maxAmmoCapacity" : 20,
+  "compatibleAmmo" : ["ammocreative", "ammo762x51"],
+  "damage" : 9.0,
+  "rpm" : 800,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "762_nato_suppressed",
+  "drawCooldownDuration" : 800,
+  "aimingZoom" : 0.9,
+  "gunRecoilInitialAmplitude" : 1.1,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 4,
+  "inspectCooldownDuration": 3700,
+  "muzzleFlashScale" : 2,
+  "scopeOverlay" : "textures/gui/ams_scope.png",
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2770,
+      "animation": "animation.model.reloadempty",
+      "shakeEffects": [
+        {
+          "start": 0,
+          "duration": 1500,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.8
+        },
+        {
+          "start": 200,
+          "duration": 700,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.4
+        },
+        {
+          "start": 370,
+          "duration": 500,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.4
+        },
+        {
+          "start": 1070,
+          "duration": 1500,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.4
+        },
+        {
+          "start": 1830,
+          "duration": 800,
+          "initialAmplitude": 0.17,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 2300,
+          "duration": 800,
+          "initialAmplitude": 0.25,
+          "rateOfAmplitudeDecay": 0.4
+        },
+        {
+          "start": 2800,
+          "duration": 1000,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 2930,
+          "duration": 400,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.4
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2470,
+      "animation": "animation.model.reload",						
+      "shakeEffects": [
+        {
+          "start": 0,
+          "duration": 1500,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.8
+        },
+        {
+          "start": 530,
+          "duration": 1500,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.4
+        },
+        {
+          "start": 1370,
+          "duration": 800,
+          "initialAmplitude": 0.17,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 1730,
+          "duration": 700,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.3
+        }
+      ]
+    }
+  ],
+  "effects": [
+	{
+		  "phase": "hit_scan_acquired",
+		  "name": "tracer"
+	},
+	{
+		  "phase": "firing",
+		  "name": "muzzle_flash"
+	}
+  ]
+}

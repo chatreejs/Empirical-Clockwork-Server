@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [-8, 0, 10]
+				},
+				{
+					"name": "magazinestanag",
+					"parent": "main",
+					"pivot": [-1.375, 17.88999, 0.3259],
+					"rotation": [0, 0, -60],
+					"cubes": [
+						{"origin": [-2.375, 17.925, -2.25], "size": [2, 7, 5.5], "uv": [43, 95]},
+						{"origin": [-2.375, 8.925, -2.25], "size": [2, 9, 5.5], "inflate": 0.001, "pivot": [-0.625, 17.925, 4.75], "rotation": [-12, 0, 0], "uv": [52, 72]}
+					]
+				},
+				{
+					"name": "bullet",
+					"parent": "magazinestanag",
+					"pivot": [-18.375, 24.675, -1.725],
+					"cubes": [
+						{"origin": [-1.875, 24.175, -1.975], "size": [1, 1, 5], "pivot": [-1.375, 24.675, -1.725], "rotation": [0, 0, 21], "uv": [83, 97]}
+					]
+				},
+				{
+					"name": "_ca_cgm249Magazine",
+					"parent": "main",
+					"pivot": [-8, 20, 10],
+					"cubes": [
+						{"origin": [-8.5, 17.25, -0.25], "size": [1, 1, 1], "uv": [2, 1]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cg_m249_bipod",
+  "type": "Attachment",
+  "category": "cgm249Rail",
+  "features": [
+    {
+	  "type": "Recoil",
+	  "recoilModifier": 0.05
+	},
+	{
+	  "type": "Accuracy",
+	  "accuracyModifier": 1.2
+	}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "mp5sd6": {
+        "sounds": [
+            {
+                "name": "pointblank:mp5sd6",
+                "stream": false
+            }
+        ]
+    },
+	"762_nato_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:762_nato_suppressed",
+                "stream": false
+            }
+        ]
+    },
+	"556_nato_suppressed_1": {
+        "sounds": [
+            {
+                "name": "pointblank:556_nato_suppressed_1",
+                "stream": false
+            }
+        ]
+    },
+    "556_nato_suppressed_2": {
+        "sounds": [
+            {
+                "name": "pointblank:556_nato_suppressed_2",
+                "stream": false
+            }
+        ]
+    }
+}

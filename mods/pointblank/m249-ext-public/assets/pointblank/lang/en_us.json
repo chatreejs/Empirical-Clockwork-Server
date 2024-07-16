@@ -1,0 +1,15 @@
+{
+  "itemGroup.pointblank-cg_m249.items": "M2 M2 M2 M2 M2 M249",
+  "item.pointblank.cg_m249": "Old M249",
+  "item.pointblank.cg_m249_magazine": "Old M249 (30rnd Magazine)",
+  "item.pointblank.cg_m249_para": "Old M249 Para",
+  "item.pointblank.cg_m249_magazine_para": "Old M249 Para (30rnd Magazine)",
+  "item.pointblank.cg_m249_inf": "M249",
+  "item.pointblank.cg_m249_rails": "M249 Rails",
+  "item.pointblank.cg_m249_bipod": "M249 Bipod",
+  "item.pointblank.cg_m249_mag65": "M249 65rnd Magazine",
+  "item.pointblank.cg_m249_mag30": "M249 30rnd Stanag Magazine",
+  "item.pointblank.cg_m249_mag100": "M249 100rnd Magazine",
+  "item.pointblank.cg_m249_mag200": "M249 200rnd Magazine",
+  "item.pointblank.cg_m249_para_stock": "M249 Para Stock"
+}

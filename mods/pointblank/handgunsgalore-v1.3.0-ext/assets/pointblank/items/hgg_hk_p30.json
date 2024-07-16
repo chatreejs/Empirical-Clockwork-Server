@@ -1,0 +1,77 @@
+{
+  "name" : "hgg_hk_p30",
+  "type": "Gun",
+  "maxAmmoCapacity" : 17,
+  "compatibleAmmo" : ["ammocreative", "ammo9mm"],
+  "damage" : 7.0,
+  "rpm" : 550,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "hgg_p30",
+  "drawCooldownDuration" : 600,
+  "aimingZoom" : 0.15,
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.7,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 3,
+  "inspectCooldownDuration": 3700,
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2070,
+      "animation": "animation.model.reloadempty",
+      "shakeEffects": [
+        {
+          "start": 240,
+          "duration": 300,
+          "initialAmplitude": 0.05,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 830,
+          "duration": 350,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.05
+        },
+        {
+          "start": 1140,
+          "duration": 400,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 1800,
+          "duration": 200,
+          "initialAmplitude": 0.5,
+          "rateOfAmplitudeDecay": 0.3
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1650,
+      "animation": "animation.model.reload",
+      "shakeEffects": [
+        {
+          "start": 500,
+          "duration": 400,
+          "initialAmplitude": 0.05,
+          "rateOfAmplitudeDecay": 0.035
+        },
+        {
+          "start": 870,
+          "duration": 400,
+          "initialAmplitude": 0.07,
+          "rateOfAmplitudeDecay": 0.05
+        },
+        {
+          "start": 1,
+          "duration": 300,
+          "initialAmplitude": 0.09,
+          "rateOfAmplitudeDecay": 0.065
+        }
+      ]
+    }
+  ]
+}

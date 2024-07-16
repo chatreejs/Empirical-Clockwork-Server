@@ -1,0 +1,290 @@
+{
+  "name" : "cg_m249_inf",
+  "type": "Gun",
+  "maxAmmoCapacity" : 0,
+  "compatibleAmmo" : ["ammocreative", "ammo556"],
+  "damage" : 5.0,
+  "rpm" : 850,
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "cg_m249",
+  "drawCooldownDuration" : 1200,
+  "aimingZoom" : 0.25,
+  "gunRecoilInitialAmplitude" : 1.0,
+  "shakeRecoilAmplitude" : 0.4,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 14000,
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": {
+		"allOf": [
+	      {
+		    "onEmptyReload": true
+	      },
+		  {
+			"unselectedFireMode": "grenade_launcher"
+		  },
+		  {
+			"doesNotHaveAttachment": "cg_m249_mag30"
+		  },
+		  {
+			"hasAttachmentGroup": "cg_m249_boxmagazines"
+		  }
+		]
+	  },
+      "duration": 7630,
+      "animation": "animation.model.reloadempty",
+	  "shakeEffects": []
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+		"allOf": [
+	      {
+		    "onEmptyReload": false
+	      },
+		  {
+			"unselectedFireMode": "grenade_launcher"
+		  },
+		  {
+			"doesNotHaveAttachment": "cg_m249_mag30"
+		  },
+		  {
+			"hasAttachmentGroup": "cg_m249_boxmagazines"
+		  }
+		]
+	  },
+      "duration": 7730,
+      "animation": "animation.model.reload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+		"allOf": [
+	      {
+		    "onEmptyReload": true
+	      },
+		  {
+			"unselectedFireMode": "grenade_launcher"
+		  },
+		  {
+			"hasAttachment": "cg_m249_mag30"
+		  }
+		]
+	  },
+      "duration": 4570,
+      "animation": "animation.model.reloademptystanag",
+	  "shakeEffects": []
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+		"allOf": [
+	      {
+		    "onEmptyReload": false
+	      },
+		  {
+			"unselectedFireMode": "grenade_launcher"
+		  },
+		  {
+			"hasAttachment": "cg_m249_mag30"
+		  }
+		]
+	  },
+      "duration": 4070,
+      "animation": "animation.model.reloadstanag"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+		"allOf": [
+	      {
+		    "onEmptyReload": true
+	      },
+		  {
+			"selectedFireMode": "grenade_launcher"
+		  }
+		]
+	  },
+      "duration": 1880,
+      "animation": "animation.model.launcherreload",
+	  "shakeEffects": []
+    }
+  ],
+  "compatibleAttachments": [
+    "cg_m249_rails",
+	"cg_m249_bipod",
+	"cantedrail",
+	"cg_m249_mag30",
+	"cg_m249_mag65",
+	"cg_m249_mag200",
+	"cg_m249_mag100",
+	"cg_m249_para_stock"
+  ],
+  "compatibleAttachmentGroups": [
+    "ar_sightsandscopes",
+	"ar_muzzle"
+  ],
+  "features": [
+    {
+	  "type": "Aiming",
+	  "zoom": 0.25,
+	  "condition": {
+        "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+	  }
+	},
+	{
+	  "type": "Sound",
+	  "fireSound": "m4a1_silenced",
+	  "fireSoundVolume": 1,
+	  "condition": {
+        "hasAttachmentGroup": "ar_suppressors"
+	  }
+	},
+	{
+	  "type": "MuzzleFlash",
+	  "effects": [
+	    {
+		  "phase": "firing",
+		  "name": "muzzle_flash"
+		}
+	  ],
+	  "condition": {
+		"allOf": [
+		  {
+			"isUsingDefaultMuzzle": true
+		  },
+		  {
+			"doesNotHaveAttachmentGroup": "ar_suppressors"
+		  }
+		]
+	  }
+	},
+	{
+	  "type": "PartVisibility",
+	  "parts": [
+	    {
+		  "name": "factoryGrips",
+		  "visible": false,
+		  "condition": {
+		    "hasAttachment": "cg_m249_rails"
+		  }
+		},
+		{
+		  "name": "magWellDoor",
+		  "visible": true,
+		  "condition": {
+		    "hasAttachment": "cg_m249_mag30"
+		  }
+		},
+		{
+		  "name": "magWellDoorNoStanag",
+		  "visible": false,
+		  "condition": {
+		    "hasAttachment": "cg_m249_mag30"
+		  }
+		},
+		{
+		  "name": "magazine",
+		  "visible": false,
+		  "condition": {
+			"anyOf": [
+			  {
+				"hasAttachment": "cg_m249_mag30"
+			  },
+			  {
+				"doesNotHaveAttachmentGroup": "cg_m249_boxmagazines"
+			  }
+			]
+		  }
+		},
+		{
+		  "name": "magazineBody100",
+		  "visible": true,
+		  "condition": {
+		    "hasAttachment": "cg_m249_mag100"
+		  }
+		},
+		{
+		  "name": "singleBullet",
+		  "visible": false,
+		  "condition": {
+		    "anyOf": [
+			  {
+				"doesNotHaveAttachmentGroup": "cg_m249_boxmagazines"
+			  },
+			  {
+				"hasAttachmentGroup": "cg_m249_boxmagazines"
+			  }
+			]
+		  }
+		},
+		{
+		  "name": "magazineBody65",
+		  "visible": true,
+		  "condition": {
+		    "allOf": [
+			  {
+			    "hasAttachment": "cg_m249_mag65"
+			  }
+		    ]
+		  }
+		},
+		{
+		  "name": "magazineBody200",
+		  "visible": true,
+		  "condition": {
+		    "allOf": [
+			  {
+			    "hasAttachment": "cg_m249_mag200"
+			  }
+		    ]
+		  }
+		},
+		{
+		  "name": "magazinestanag",
+		  "visible": true,
+		  "condition": {
+		    "allOf": [
+			  {
+			    "hasAttachment": "cg_m249_mag30"
+			  }
+		    ]
+		  }
+		},
+		{
+		  "name": "bipod",
+		  "visible": false,
+		  "condition": {
+		    "hasAttachment": "cg_m249_bipod"
+		  }
+		},
+		{
+		  "name": "stock",
+		  "visible": false,
+		  "condition": {
+		    "hasAttachment": "cg_m249_para_stock"
+		  }
+		},
+		{
+		  "name": "launcher",
+		  "visible": true,
+		  "condition": {
+			"allOf": [
+			  {
+			    "hasAttachmentAtPathPrefix": "//cg_m249_rails/m203launcher"
+			  }
+		    ]
+		  }
+		}
+	  ]
+	}
+  ],
+  "effects": [
+    {
+	  "phase": "hit_scan_acquired",
+	  "name": "tracer"
+	}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cg_m249_rails",
+  "type": "Attachment",
+  "category": "cgm249Rail",
+  "compatibleAttachmentGroups": [
+    "underbarrel"
+  ],
+  "compatibleAttachments": [
+    "m203launcher"
+  ],
+  "features": [
+    {
+	  "type": "Recoil",
+	  "recoilModifier": 1.1
+	}
+  ]
+}

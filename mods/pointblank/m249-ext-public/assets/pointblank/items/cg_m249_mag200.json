@@ -1,0 +1,22 @@
+{
+  "name": "cg_m249_mag200",
+  "type": "Attachment",
+  "category": "underbarrel",
+  "groups": [
+    "cg_m249_boxmagazines"
+  ],
+  "features": [
+    {
+      "type": "AmmoCapacity",
+      "ammoCapacity": 200
+    },
+	{
+      "type": "Recoil",
+      "recoilModifier": 1.1
+    },
+	{
+      "type": "Accuracy",
+      "accuracyModifier": 0.85
+    }
+  ]
+}

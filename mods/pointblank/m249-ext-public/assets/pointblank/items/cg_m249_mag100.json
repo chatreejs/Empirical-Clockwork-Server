@@ -1,0 +1,18 @@
+{
+  "name": "cg_m249_mag100",
+  "type": "Attachment",
+  "category": "underbarrel",
+  "groups": [
+    "cg_m249_boxmagazines"
+  ],
+  "features": [
+    {
+      "type": "AmmoCapacity",
+      "ammoCapacity": 100
+    },
+	{
+      "type": "Accuracy",
+      "accuracyModifier": 0.95
+    }
+  ]
+}

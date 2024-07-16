@@ -1,0 +1,19 @@
+{
+  "itemGroup.pointblank-handguns-galore-pack.items": "Handwaffen in Hülle und Fülle",
+  "item.pointblank.hgg_walther_ppk": "Walther PPK",
+  "item.pointblank.hgg_hk_usp": "USP",
+  "item.pointblank.hgg_hk_usp_silenced": "USP (Schallgedämpft)",
+  "item.pointblank.hgg_hk_p30": "P30",
+  "item.pointblank.hgg_fn_hpda": "HP-DA",
+  "item.pointblank.hgg_fn_fnp40": "FNP-40",
+  "item.pointblank.hgg_r6_rg15": "RG15",
+  "item.pointblank.hgg_taurus_pt145": "Taurus PT145",
+  "item.pointblank.hgg_beretta_px4storm": "Beretta Px4 Storm",
+  "item.pointblank.hgg_fn_fiveseven": "Five seveN",
+  "item.pointblank.hgg_mr_deserteagle": "Desert Eagle",
+  "item.pointblank.hgg_nfm_makarov": "Makarow",
+
+  "item.pointblank.ammo40sw": ".40 S&W",
+  "item.pointblank.ammo50actionexpress": ".50 Action Express",
+  "item.pointblank.ammo57x28": "5.7x28mm"
+}

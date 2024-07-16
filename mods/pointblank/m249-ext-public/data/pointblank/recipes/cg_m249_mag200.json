@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 20,
+      "item": "pointblank:gunmetal_ingot"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:pufferfish"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:mangrove_propagule"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:popped_chorus_fruit"
+    },
+	{
+      "count": 1,
+      "tag": "forge:dyes/green"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cg_m249_mag200"
+  }
+}

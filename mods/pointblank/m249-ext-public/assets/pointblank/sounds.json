@@ -1,0 +1,114 @@
+{
+    "cg_m249": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249",
+                "stream": false
+            }
+        ]
+    },
+    "cg_m249_actionback": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_actionback",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_actionforward": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_actionforward",
+                "stream": false
+            }
+        ]
+    },
+    "cg_m249_bulletchain": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_bulletchain",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_coverdown": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_coverdown",
+                "stream": false
+            }
+        ]
+    },
+    "cg_m249_coverup": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_coverup",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_magin",
+                "stream": false
+            }
+        ]
+    },
+    "cg_m249_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_magout",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_minimagin": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_minimagin",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_minimagout": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_minimagout",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_funnelsound": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_funnelsound",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_dryfire": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_dryfire",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_barrelin": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_barrelin",
+                "stream": false
+            }
+        ]
+    },
+	"cg_m249_barrelout": {
+        "sounds": [
+            {
+                "name": "pointblank:cg_m249_barrelout",
+                "stream": false
+            }
+        ]
+    }
+}
